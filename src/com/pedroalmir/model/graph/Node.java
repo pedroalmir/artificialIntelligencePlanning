@@ -59,13 +59,24 @@ public class Node {
 	}
 
 	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Node [name=" + name + ", informations=" + informations + "]";
+	}
+
+	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		result = prime * result + ((informations == null) ? 0 : informations.hashCode());
+		if(informations == null){
+			result = prime * result + ((name == null) ? 0 : name.hashCode());
+		}
 		return result;
 	}
 
@@ -74,18 +85,33 @@ public class Node {
 	 */
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
+		if (this == obj){
 			return true;
-		if (obj == null)
+		}
+		if (obj == null){
 			return false;
-		if (getClass() != obj.getClass())
+		}
+		if (getClass() != obj.getClass()){
 			return false;
+		}
+		
 		Node other = (Node) obj;
-		if (name == null) {
-			if (other.name != null)
+		if (informations == null) {
+			if (other.informations != null){
 				return false;
-		} else if (!name.equals(other.name))
+			}
+			
+			/* Estou considerando o nome apenas nos casos em que as informações do nó são nulas. */
+			if (name == null) {
+				if (other.name != null){
+					return false;
+				}
+			} else if (!name.equals(other.name)){
+				return false;
+			}
+		} else if (!informations.equals(other.informations)){
 			return false;
+		}
 		return true;
 	}
 }

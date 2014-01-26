@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.pedroalmir.model.problem;
+package com.pedroalmir.model.problem.base;
 
 import java.util.LinkedHashSet;
 

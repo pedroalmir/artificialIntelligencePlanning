@@ -31,6 +31,7 @@ public class Edge {
 		super();
 		this.begin = begin;
 		this.end = end;
+		this.label = "[" + this.begin.getName() + " - " + this.end.getName() + "]";
 	}
 	
 	/**
