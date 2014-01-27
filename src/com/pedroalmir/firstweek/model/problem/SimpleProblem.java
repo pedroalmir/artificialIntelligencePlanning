@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.pedroalmir.model.problem;
+package com.pedroalmir.firstweek.model.problem;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -9,11 +9,11 @@ import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.pedroalmir.model.graph.Edge;
-import com.pedroalmir.model.graph.Graph;
-import com.pedroalmir.model.graph.Node;
-import com.pedroalmir.model.problem.base.Problem;
-import com.pedroalmir.model.problem.base.Strategy;
+import com.pedroalmir.firstweek.model.graph.Edge;
+import com.pedroalmir.firstweek.model.graph.Graph;
+import com.pedroalmir.firstweek.model.graph.Node;
+import com.pedroalmir.firstweek.model.problem.base.Problem;
+import com.pedroalmir.firstweek.model.problem.base.Strategy;
 
 /**
  * @author Pedro Almir

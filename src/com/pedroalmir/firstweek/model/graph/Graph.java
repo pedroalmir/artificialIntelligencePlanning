@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.pedroalmir.model.graph;
+package com.pedroalmir.firstweek.model.graph;
 
 import java.util.HashMap;
 import java.util.List;

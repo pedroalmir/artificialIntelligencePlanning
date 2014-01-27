@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.pedroalmir.model.problem.base;
+package com.pedroalmir.firstweek.model.problem.base;
 
 import java.util.LinkedHashSet;
 
-import com.pedroalmir.model.graph.Graph;
-import com.pedroalmir.model.graph.Node;
+import com.pedroalmir.firstweek.model.graph.Graph;
+import com.pedroalmir.firstweek.model.graph.Node;
 
 /**
  * @author Pedro Almir

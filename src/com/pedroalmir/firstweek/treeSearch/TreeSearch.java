@@ -1,15 +1,15 @@
 /**
  * 
  */
-package com.pedroalmir.treeSearch;
+package com.pedroalmir.firstweek.treeSearch;
 
 import java.util.LinkedHashSet;
 
-import com.pedroalmir.model.graph.Node;
-import com.pedroalmir.model.problem.MissionariesCannibalsProblem;
-import com.pedroalmir.model.problem.SimpleProblem;
-import com.pedroalmir.model.problem.base.Problem;
-import com.pedroalmir.model.problem.base.Strategy;
+import com.pedroalmir.firstweek.model.graph.Node;
+import com.pedroalmir.firstweek.model.problem.MissionariesCannibalsProblem;
+import com.pedroalmir.firstweek.model.problem.SimpleProblem;
+import com.pedroalmir.firstweek.model.problem.base.Problem;
+import com.pedroalmir.firstweek.model.problem.base.Strategy;
 
 /**
  * General Tree Search Algorithm

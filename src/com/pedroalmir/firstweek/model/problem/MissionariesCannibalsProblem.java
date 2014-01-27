@@ -1,12 +1,12 @@
-package com.pedroalmir.model.problem;
+package com.pedroalmir.firstweek.model.problem;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-import com.pedroalmir.model.graph.Graph;
-import com.pedroalmir.model.graph.Node;
-import com.pedroalmir.model.problem.base.Problem;
-import com.pedroalmir.model.problem.base.Strategy;
+import com.pedroalmir.firstweek.model.graph.Graph;
+import com.pedroalmir.firstweek.model.graph.Node;
+import com.pedroalmir.firstweek.model.problem.base.Problem;
+import com.pedroalmir.firstweek.model.problem.base.Strategy;
 
 public class MissionariesCannibalsProblem implements Problem{
 	

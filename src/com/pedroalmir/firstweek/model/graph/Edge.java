@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.pedroalmir.model.graph;
+package com.pedroalmir.firstweek.model.graph;
 
 /**
  * @author Pedro Almir
