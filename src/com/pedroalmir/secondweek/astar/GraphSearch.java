@@ -8,9 +8,6 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.PriorityQueue;
 
-import com.pedroalmir.secondweek.problem.BasicEightPuzzleProblem;
-import com.pedroalmir.secondweek.problem.FirstExamQuestionProblem;
-import com.pedroalmir.secondweek.problem.SecondExamQuestionProblem;
 import com.pedroalmir.secondweek.problem.ThirdExamQuestionProblem;
 import com.pedroalmir.secondweek.problem.base.EightPuzzleProblem;
 import com.pedroalmir.secondweek.puzzle.Board;
@@ -123,15 +120,12 @@ public class GraphSearch {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("###################################################");
+		/*System.out.println("###################################################");
 		System.out.println("First Sample");
 		System.out.println("###################################################");
 		BasicEightPuzzleProblem problem = new BasicEightPuzzleProblem();
 		LinkedHashSet<Board> result = GraphSearch.aStarGraphSearchSecondVersion(problem);
 		if(result != null && !result.isEmpty()){
-			/*for(Board board : result){
-				System.out.println(board.toString());
-			}*/
 			System.out.println(result.iterator().next().toString());
 			System.out.println("Number of boards: " + result.size());
 			System.out.println("Number of actions: " + (result.size()-1));
@@ -160,12 +154,12 @@ public class GraphSearch {
 			System.out.println("Number of actions: " + (result.size()-1));
 		}else{
 			System.out.println("Result not found");
-		}
+		}*/
 		System.out.println("###################################################");
 		System.out.println("Third Question of the exam");
 		System.out.println("###################################################");
 		ThirdExamQuestionProblem thirdExamProblem = new ThirdExamQuestionProblem();
-		result = GraphSearch.aStarGraphSearchThirdVersion(thirdExamProblem);
+		LinkedHashSet<Board> result = GraphSearch.aStarGraphSearchThirdVersion(thirdExamProblem);
 		if(result != null && !result.isEmpty()){
 			System.out.println(result.iterator().next().toString());
 			System.out.println("Number of boards: " + result.size());

@@ -14,12 +14,14 @@ public class BoardComparator implements Comparator<Board>{
 	@Override
 	public int compare(Board b1, Board b2) {
 		/* function h(n) = distance to the nearest goal node - heuristic function */
-		int h1 = b1.getManhattanDistance();
+		//int h1 = b1.getManhattanDistance();
+		int h1 = 0;
 		/* function g(n) = the cost to reach the node n - cost function */
 		int g1 = b1.getPathLength();
 		Integer f1 = new Integer(h1+g1); 
 		/* function h(n) = distance to the nearest goal node - heuristic function */
-		int h2 = b2.getManhattanDistance();
+		//int h2 = b2.getManhattanDistance();
+		int h2 = 0;
 		/* function g(n) = the cost to reach the node n - cost function */
 		int g2 = b2.getPathLength();
 		Integer f2 = new Integer(h2+g2);
